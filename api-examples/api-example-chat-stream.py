@@ -24,7 +24,7 @@ async def run(user_input, history):
         'auto_max_new_tokens': False,
         'max_tokens_second': 0,
         'history': history,
-        'mode': 'chat-instruct',  # Valid options: 'chat', 'chat-instruct', 'instruct'
+        'mode': 'chat',  # Valid options: 'chat', 'chat-instruct', 'instruct', but only 'chat' works
         'character': 'Example',
         'instruction_template': 'Vicuna-v1.1',  # Will get autodetected if unset
         'your_name': 'You',
